@@ -1,0 +1,18 @@
+.container{
+   
+    padding-top: 4rem ;
+    padding-bottom:0rem ;
+    display: flex;
+    justify-content: space-between;
+}
+a{
+text-decoration: none;
+}
+ul{
+ display: flex;
+  gap: 2rem;
+}
+li{
+    list-style: none;
+}
+
