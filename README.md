@@ -5,3 +5,4 @@
 4) In the one terminal go to the client directory and in the another terminal go to the server directory
 5) in client Directory run the command **npm run dev**
 6) In the sever directory run the command **nodemon server**
+7) And write your own key in the **JWT_SECRET_KEY**
