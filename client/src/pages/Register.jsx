@@ -65,6 +65,7 @@ try{
 }
 
     return <>
+    <div className="containercenter">
     <div className="reg-container">
         <div className="reg-left">
     <img src="./registerpng.png" alt="not found"  />
@@ -118,6 +119,7 @@ try{
 
     </div>
 
+    </div>
     </div>
     
     </>

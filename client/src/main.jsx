@@ -23,7 +23,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     pauseOnHover
     theme="colored"
     bodyClassName="toastBody"
-    transition: Bounce/>
-  </React.StrictMode>,
+    />
+  </React.StrictMode>
   </Authprovider>
 );

@@ -1,0 +1,39 @@
+.container-admin {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #ffffff; /* White background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Navigation styling */
+.container-admin nav ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+    display: flex;
+    justify-content: space-around; /* Evenly space out the items */
+    margin-bottom: 20px; /* Space between nav and Outlet */
+}
+
+.container-admin nav ul li {
+    margin: 0 10px; /* Space out the list items */
+}
+
+.container-admin nav ul li a {
+    text-decoration: none; /* Remove underline */
+    color: #333; /* Dark text color */
+    font-weight: bold; /* Make text bold */
+    display: flex;
+    align-items: center; /* Center items vertically */
+    gap: 8px; /* Space between icon and text */
+    transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+.container-admin nav ul li a:hover {
+    color: #4caf50; /* Change text color on hover */
+}
+
+.container-admin nav ul li a.active {
+    color: #4caf50; /* Active link color */
+}

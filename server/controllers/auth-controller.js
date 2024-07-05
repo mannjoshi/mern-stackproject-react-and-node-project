@@ -4,7 +4,7 @@ const bcrypt=require("bcryptjs");
 
 const home= async(req,res)=>{
     try{
-     res.status(200).send("Welcome to thwe ");
+     res.status(200).send("Welcome to the ");
 
     }catch(error){
         console.log(error);
